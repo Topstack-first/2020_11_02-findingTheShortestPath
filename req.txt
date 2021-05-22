@@ -1,0 +1,53 @@
+Hello, I am looking for a Masters student or 
+a professional to help me with a SQL programming 
+question. It involves recursive functions and 
+"finding the shortest path". 
+Please let me know if you are familiar with these 
+topics and I can send you all the details. Thank you.
+
+
+https://bit.ly/34T6tFw
+
+1) There must be a "view FUMAR_PATHS" 
+which uses the distance formula to 
+calculate the distance between each 
+set of points (line 70,71 of code)   ------------------   complete
+
+2) There must be a procedure called 
+"GET_SHORTEST_FUMAR_PATH" which will 
+output the result (line 74 to 80)    -------------------complete
+
+3) The code must be inserted 
+into the current file only 
+where the comments are and 
+not anywhere else (lines 82-83)      ------------------complete
+
+4) Please include some comments 
+explaining what the code does (line 94)  --------------complete
+
+Once this is done. 
+Then make a duplicate copy of the file, 
+and we can do the remaining few changes 
+on the duplicate copy
+
+5) Make a procedure called 
+"GENERATE_N_FUMAR_SITES (@siteCount int)" 
+which creates @siteCount sites in the 
+table instead of 4. So basically, 
+this is now a funciton where the user 
+can input how many sites he wants to be 
+randomly generated. If user input 5, then 
+5 random sites are generated. If user input 10, 
+then 10 random sites are generated (Lines 98-99)  -------complete
+
+6) validate that GET_SHORTEST_FUMAR_PATHS 
+works according to the user input . 
+So basically we must validate that when 
+the user is inputting 5, then 5 sites 
+are generated. (line 1000)                         ----------complete
+
+7) In the comments, record how long it takes 
+for a few different number of sites(line 101 to 102)
+
+points 5 6 7 must be done on a copy of the 
+.sql document -- not on the original
